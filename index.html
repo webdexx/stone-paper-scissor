@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stone Paper Scissors</h1>
+        
+        <div class="score-board">
+            <div class="score">
+                <p>Player 1</p>
+                <span id="player1-score">0</span>
+            </div>
+            <div class="score">
+                <p>Player 2</p>
+                <span id="player2-score">0</span>
+            </div>
+        </div>
+
+        <div class="game-area">
+            <div class="player-area">
+                <h2>Player 1</h2>
+                <div class="choices">
+                    <button class="choice-btn" data-choice="stone">✊</button>
+                    <button class="choice-btn" data-choice="paper">✋</button>
+                    <button class="choice-btn" data-choice="scissors">✌️</button>
+                </div>
+            </div>
+
+            <div class="player-area">
+                <h2>Player 2</h2>
+                <div class="choices">
+                    <button class="choice-btn" data-choice="stone">✊</button>
+                    <button class="choice-btn" data-choice="paper">✋</button>
+                    <button class="choice-btn" data-choice="scissors">✌️</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="result">
+            <p id="game-message">Choose your moves!</p>
+        </div>
+
+        <button id="reset-btn">Reset Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
