@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 90%;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.score {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    min-width: 120px;
+}
+
+.score p {
+    font-weight: bold;
+    color: #666;
+}
+
+.score span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.game-area {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.player-area {
+    text-align: center;
+}
+
+.player-area h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.choices {
+    display: flex;
+    gap: 1rem;
+}
+
+.choice-btn {
+    background: none;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    padding: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.choice-btn:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.result {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#game-message {
+    font-size: 1.2rem;
+    color: #333;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+#reset-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 0.8rem 2rem;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#reset-btn:hover {
+    background-color: #c82333;
+} 
